@@ -1,0 +1,10 @@
+version: '2.27.0'
+services:
+  backend:
+    build: ./MyLists-Backend
+    ports:
+      - "5000:5000"
+  frontend:
+    build: ./MyLists-Frontend
+    ports:
+      - "8080:8080"
